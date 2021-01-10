@@ -43,10 +43,14 @@ namespace NEWAllCardsOnDeck
                 deck[rightIndex] = leftCard;
 
                 //     deck[leftIndex] = leftCard
-                deck[leftIndex] = rightCard
-
+                deck[leftIndex] = rightCard;
             }
-            //   
+            // get first card in deck and display
+            var firstCard = deck[0];
+
+            // get second card in deck and display
+            var secondCard = deck[1];
+
 
 
         }
